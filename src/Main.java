@@ -2,7 +2,7 @@ void main() {
     // Variables
     int opcion;
     Scanner sc = new Scanner(System.in);
-
+    //Funciona
     do {
         saltoLinea(1);
         opcion = menu(sc);
