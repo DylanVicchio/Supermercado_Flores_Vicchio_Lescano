@@ -6,6 +6,7 @@ void main() {
     do {
         saltoLinea(1);
         opcion = menu(sc);
+        saltoLinea(1);
         switch(opcion) {
             case 0: {
                 System.out.println("< Cerrando programa... >");
@@ -40,6 +41,7 @@ public static int menu(Scanner sc) {
 
 // Auxiliares
 public static void limpiarPantalla(Scanner sc) {
+    saltoLinea(1);
     System.out.println("< Volviendo al menu principal >");
     System.out.print("> Presione Enter para continuar...");
     sc.nextLine();
