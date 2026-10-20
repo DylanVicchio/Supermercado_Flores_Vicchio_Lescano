@@ -57,5 +57,5 @@ public static void saltoLinea(int num) {
     }
 }
 public static void opcionMenu(int num, String descripcion) {
-    System.out.printf("[%d.] %s.", num, descripcion);
+    System.out.printf("[%d.] %s. \n", num, descripcion);
 }
